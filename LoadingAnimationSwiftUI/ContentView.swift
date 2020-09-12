@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            
+            HorizontalSlidingBarView()
+            
+            VerticalBarsView()
+            .padding(.top, 50)
+            
+            ScalingCirclesView()
+            .padding(.top, 50)
+            
+            CircleWithWavesView()
+            .padding(.top, 100)
+            
+            SlidingCirclesView()
+            .padding(.top, 50)
+
+        }
     }
 }
 

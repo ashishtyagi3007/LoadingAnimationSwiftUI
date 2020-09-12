@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1996892250D4C0F0083133D /* SlidingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1996891250D4C0F0083133D /* SlidingCirclesView.swift */; };
 		B1F48E5B250D164B001D9F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E5A250D164B001D9F14 /* AppDelegate.swift */; };
 		B1F48E5D250D164B001D9F14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E5C250D164B001D9F14 /* SceneDelegate.swift */; };
 		B1F48E5F250D164B001D9F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E5E250D164B001D9F14 /* ContentView.swift */; };
 		B1F48E61250D1651001D9F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F48E60250D1651001D9F14 /* Assets.xcassets */; };
 		B1F48E64250D1651001D9F14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F48E63250D1651001D9F14 /* Preview Assets.xcassets */; };
 		B1F48E67250D1651001D9F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F48E65250D1651001D9F14 /* LaunchScreen.storyboard */; };
+		B1F48E6F250D2969001D9F14 /* HorizontalSlidingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E6E250D2969001D9F14 /* HorizontalSlidingBarView.swift */; };
+		B1F48E71250D2DD5001D9F14 /* VerticalBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E70250D2DD5001D9F14 /* VerticalBarsView.swift */; };
+		B1F48E73250D3206001D9F14 /* ScalingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E72250D3206001D9F14 /* ScalingCirclesView.swift */; };
+		B1F48E75250D3638001D9F14 /* CircleWithWavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F48E74250D3638001D9F14 /* CircleWithWavesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1996891250D4C0F0083133D /* SlidingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingCirclesView.swift; sourceTree = "<group>"; };
 		B1F48E57250D164B001D9F14 /* LoadingAnimationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingAnimationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F48E5A250D164B001D9F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F48E5C250D164B001D9F14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		B1F48E63250D1651001D9F14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1F48E66250D1651001D9F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F48E68250D1651001D9F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F48E6E250D2969001D9F14 /* HorizontalSlidingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlidingBarView.swift; sourceTree = "<group>"; };
+		B1F48E70250D2DD5001D9F14 /* VerticalBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalBarsView.swift; sourceTree = "<group>"; };
+		B1F48E72250D3206001D9F14 /* ScalingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingCirclesView.swift; sourceTree = "<group>"; };
+		B1F48E74250D3638001D9F14 /* CircleWithWavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithWavesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				B1F48E5A250D164B001D9F14 /* AppDelegate.swift */,
 				B1F48E5C250D164B001D9F14 /* SceneDelegate.swift */,
 				B1F48E5E250D164B001D9F14 /* ContentView.swift */,
+				B1F48E6E250D2969001D9F14 /* HorizontalSlidingBarView.swift */,
+				B1F48E70250D2DD5001D9F14 /* VerticalBarsView.swift */,
+				B1F48E72250D3206001D9F14 /* ScalingCirclesView.swift */,
+				B1F48E74250D3638001D9F14 /* CircleWithWavesView.swift */,
+				B1996891250D4C0F0083133D /* SlidingCirclesView.swift */,
 				B1F48E60250D1651001D9F14 /* Assets.xcassets */,
 				B1F48E65250D1651001D9F14 /* LaunchScreen.storyboard */,
 				B1F48E68250D1651001D9F14 /* Info.plist */,
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F48E71250D2DD5001D9F14 /* VerticalBarsView.swift in Sources */,
 				B1F48E5B250D164B001D9F14 /* AppDelegate.swift in Sources */,
+				B1F48E6F250D2969001D9F14 /* HorizontalSlidingBarView.swift in Sources */,
 				B1F48E5D250D164B001D9F14 /* SceneDelegate.swift in Sources */,
+				B1F48E73250D3206001D9F14 /* ScalingCirclesView.swift in Sources */,
+				B1996892250D4C0F0083133D /* SlidingCirclesView.swift in Sources */,
+				B1F48E75250D3638001D9F14 /* CircleWithWavesView.swift in Sources */,
 				B1F48E5F250D164B001D9F14 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
