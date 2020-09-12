@@ -27,7 +27,6 @@ struct ContentView: View {
             SlidingCirclesView()
             .padding(.top, 50)
 
-            
         }
     }
 }
